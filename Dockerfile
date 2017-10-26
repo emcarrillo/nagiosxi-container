@@ -1,7 +1,4 @@
-#
 # Title: Dockerfile for Nagios XI
-#
-# Maintainer: Yongbok Kim (ruo91@yongbok.net)
 #
 # - Build
 # docker build --rm -t nagios:xi .
@@ -11,7 +8,6 @@
 
 # Base images
 FROM     centos:centos6
-MAINTAINER Yongbok Kim <ruo91@yongbok.net>
 
 # WorkDIR
 ENV SRC_DIR /opt
